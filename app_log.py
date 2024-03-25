@@ -34,7 +34,7 @@ class MyTCPHandler(socketserver.BaseRequestHandler):
 
 def main():
     IP_IR = '0.0.0.0'  # Listen on all network interfaces
-    PORT_IR = 1567
+    PORT_IR = 12345
 
     print(f'starting server on port {PORT_IR}...')
     
